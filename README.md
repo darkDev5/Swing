@@ -16,6 +16,6 @@ switch (builder.build().showYesNoCancelDialog()) {
         case 0 -> System.out.println("Selected yes");
         case 1 -> System.out.println("Selected no");
         case 2 -> System.out.println("Selected cancel");
-         default -> System.out.println("No selected nothing");
+        default -> System.out.println("No selected nothing");
 }
 ```
